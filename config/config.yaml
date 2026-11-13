@@ -141,6 +141,18 @@ rss:
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
 
+    - id: "techcrunch"
+      name: "TechCrunch"
+      url: "https://techcrunch.com"
+      
+    - id: "the-verge"
+      name: "The Verge"
+      url: "https://theverge.com"
+      
+    - id: "bbc-world"
+      name: "BBC 国际"
+      url: "https://bbci.co.uk"
+
     # 自定义源示例
     # - id: "custom-feed"
     #   name: "自定义源"
