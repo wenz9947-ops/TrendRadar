@@ -136,15 +136,15 @@ rss:
     - id: "techcrunch"
       name: "TechCrunch"
       url: "https://techcrunch.com"
-      
+
     - id: "theverge"
       name: "The Verge"
       url: "https://theverge.com"
-      
+
     - id: "wired"
       name: "Wired"
       url: "https://wired.com"
-      
+
     - id: "mit-tech"
       name: "MIT科技评论"
       url: "https://technologyreview.com"
@@ -153,28 +153,28 @@ rss:
     - id: "cnbc-top"
       name: "CNBC财经"
       url: "https://cnbc.com"
-      
+
     - id: "ft-world"
       name: "金融时报FT"
       url: "https://ft.com"
-      
+
     - id: "yahoo-finance"
       name: "雅虎财经"
-      url: "https://finance.yahoo.com/news/rssindex"
-      
+      url: "https://yahoo.com"
+
     - id: "marketwatch"
       name: "MarketWatch"
-      url: "https://dowjones.io"
+      url: "https://marketwatch.com"
 
     # ─── 国际时政与地缘商业 (World & Geopolitics) ───
     - id: "bbc-world"
       name: "BBC国际"
       url: "https://bbci.co.uk"
-      
+
     - id: "bbc-tech"
       name: "BBC科技"
       url: "https://bbci.co.uk"
-      
+
     - id: "guardian-world"
       name: "卫报国际"
       url: "https://theguardian.com"
@@ -183,40 +183,28 @@ rss:
     - id: "sspai"
       name: "少数派"
       url: "https://sspai.com"
-      
+
     - id: "ifanr"
       name: "爱范儿"
       url: "https://ifanr.com"
-     
-    - id: "yahoo-finance"
-      name: "雅虎财经"
-      url: "https://finance.yahoo.com/news/rssindex"
 
-    - id: "techcrunch"
-      name: "TechCrunch"
-      url: "https://techcrunch.com"
-      
-    - id: "the-verge"
-      name: "The Verge"
-      url: "https://theverge.com"
-      
-    - id: "bbc-world"
-      name: "BBC 国际"
-      url: "https://bbci.co.uk"
-
- # ─── 深度商业与国际政经分析 (In-depth Analysis & Global Affairs) ───
+    # ─── 深度商业与国际政经分析 (In-depth Analysis & Global Affairs) ───
     - id: "economist-finance"
       name: "经济学人·财经"
       url: "https://economist.com"
+
     - id: "economist-science"
       name: "经济学人·科技"
       url: "https://economist.com"
+
     - id: "nytimes-tech"
       name: "纽约时报·科技"
       url: "https://nytimes.com"
+
     - id: "nytimes-business"
       name: "纽约时报·商业"
       url: "https://nytimes.com"
+
     - id: "wsj-tech"
       name: "华尔街日报·科技"
       url: "https://dj.com"
@@ -224,13 +212,16 @@ rss:
     # ─── 前沿科学与 AI 学术动态 (Science & AI Research) ───
     - id: "arxiv-ai"
       name: "arXiv人工智能论文"
-      url: "http://arxiv.org"
+      url: "https://arxiv.org"
+
     - id: "nature-news"
       name: "Nature自然新闻"
       url: "https://nature.com"
+
     - id: "quanta-magazine"
       name: "Quanta前沿科学"
       url: "https://quantamagazine.org"
+
     - id: "openai-blog"
       name: "OpenAI官方博客"
       url: "https://openai.com"
@@ -239,6 +230,7 @@ rss:
     - id: "arstechnica"
       name: "Ars Technica"
       url: "https://arstechnica.com"
+
     - id: "infoq-cn"
       name: "InfoQ中文"
       url: "https://infoq.cn"
@@ -247,9 +239,11 @@ rss:
     - id: "36kr"
       name: "36氪快讯"
       url: "https://36kr.com"
+
     - id: "huxiu"
       name: "虎嗅网"
       url: "https://huxiu.com"
+
     - id: "leiphone"
       name: "雷峰网"
       url: "https://leiphone.com"
@@ -258,12 +252,15 @@ rss:
     - id: "seeking-alpha"
       name: "SeekingAlpha美股"
       url: "https://seekingalpha.com"
+
     - id: "benzinga"
       name: "Benzinga美股快讯"
       url: "https://benzinga.com"
+
     - id: "investing-news"
       name: "英为财情Investing"
       url: "https://investing.com"
+
     - id: "zerohedge"
       name: "ZeroHedge金融观察"
       url: "https://feedburner.com"
@@ -272,12 +269,15 @@ rss:
     - id: "wsj-markets"
       name: "华尔街日报·市场"
       url: "https://dj.com"
+
     - id: "fortune-finance"
       name: "财富Fortune·金融"
       url: "https://fortune.com"
+
     - id: "ft-companies"
       name: "金融时报·企业并购"
       url: "https://ft.com"
+
     - id: "xueqiu-hot"
       name: "雪球今日话题"
       url: "https://xueqiu.com"
@@ -286,15 +286,19 @@ rss:
     - id: "coindesk"
       name: "CoinDesk加密资讯"
       url: "https://coindesk.com"
+
     - id: "cointelegraph"
       name: "Cointelegraph"
       url: "https://cointelegraph.com"
+
     - id: "the-block"
       name: "TheBlock机构加密"
       url: "https://theblock.co"
+
     - id: "decrypt"
       name: "DecryptWeb3"
       url: "https://decrypt.co"
+
     - id: "panews"
       name: "PANews中文Web3"
       url: "https://panewslab.com"
