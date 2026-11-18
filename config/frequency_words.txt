@@ -187,6 +187,8 @@
 /特斯拉|马斯克|\bTesla\b|\bElon Musk\b|\bCybertruck\b|\bModel 3\b|\bModel Y\b|\bModel S\b|\bModel X\b|\bFSD\b/ => 特斯拉
 
 /英伟达|黄仁勋|\bNVIDIA\b|\bGeForce\b|\bRTX\b|\bCUDA\b|\bJensen Huang\b/ => 英伟达
+@3
+
 /苏姿丰|锐龙|霄龙|\bAMD\b|\bRyzen\b|\bEPYC\b|\bRadeon\b|\bLisa Su\b/ => AMD
 
 /微软|\bMicrosoft\b|\bWindows\b|\bAzure\b|\bSatya Nadella\b|\bCopilot\b/ => 微软
@@ -231,10 +233,88 @@
 /(?<![a-zA-Z])ai(?![a-zA-Z])/
 人工智能
 
+[AI 大模型]
+人工智能
+大模型
+智能体
+/\bAI\b/i
+/\bLLM\b/i
+/\bAGI\b/i
+/\bOpenAI\b/i
+/\bChatGPT\b/i
+/\bClaude\b/i
+/\bAnthropic\b/i
+/\bGemini\b/i
+/\bDeepSeek\b/i
+/\bAgent\b/i
+@5
+
 [芯片]
 芯片
-光刻机
 半导体
+光刻机
+台积电
+英伟达
+/\bTSMC\b/i
+/\bASML\b/i
+/\bNVIDIA\b/i
+/\bAMD\b/i
+/\bIntel\b/i
+/\bSemiconductor\b/i
+@5
+
+[宏观与金融]
+美联储
+降息
+加息
+通胀
+汇率
+黄金
+原油
+纳斯达克
+/\bFed\b/i
+/\bFederal Reserve\b/i
+/\bCPI\b/i
+/\bInterest Rate\b/i
+/\bInflation\b/i
+/\bNasdaq\b/i
+/\bGold\b/i
+@5
+
+[汽车与智驾]
+新能源汽车
+自动驾驶
+无人驾驶
+固态电池
+特斯拉
+比亚迪
+/\bTesla\b/i
+/\bBYD\b/i
+/\bFSD\b/i
+/\bRobotaxi\b/i
+/\bWaymo\b/i
+/\bEV\b/i
+@3
+
+[商业巨头]
+财报
+收购
+反垄断
+苹果
+微软
+谷歌
+亚马逊
+字节跳动
+腾讯
+/\bApple\b/i
+/\bMicrosoft\b/i
+/\bGoogle\b/i
+/\bAmazon\b/i
+/\bMeta\b/i
+/\bTikTok\b/i
+/\bEarnings\b/i
+/\bAntitrust\b/i
+@6
 
 /水电|雅鲁藏布江/ => 水电
 /光伏|太阳能/ => 光伏
@@ -248,6 +328,37 @@
 具身智能
 
 /月球|登月|火星|宇宙|飞船|航天|空间站|卫星/ => 航天
+
+[前沿与航天]
+商业航天
+火箭
+卫星
+人形机器人
+具身智能
+量子计算
+脑机接口
+/\bSpaceX\b/i
+/\bStarlink\b/i
+/\bStarship\b/i
+/\bHumanoid\b/i
+/\bRobotics\b/i
+/\bQuantum\b/i
+/\bNeuralink\b/i
+@3
+
+text
+[地缘与贸易]
+关税
+制裁
+出口管制
+供应链
+峰会
+/\bTariff\b/i
+/\bSanction\b/i
+/\bExport Control\b/i
+/\bSupply Chain\b/i
+/\bSummit\b/i
+@3
 
 # 前沿科技
 量子
