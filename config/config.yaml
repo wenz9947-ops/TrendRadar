@@ -128,19 +128,24 @@ rss:
   # - 0：禁用此频道的新鲜度过滤，推送所有文章
 
   feeds:
+feeds:
     # ─── 科技与人工智能 (Tech & AI) ───
     - id: "hacker-news"
       name: "Hacker News"
       url: "https://hnrss.org/frontpage"
+      
     - id: "techcrunch"
       name: "TechCrunch"
       url: "https://techcrunch.com"
+      
     - id: "theverge"
       name: "The Verge"
       url: "https://theverge.com"
+      
     - id: "wired"
       name: "Wired"
       url: "https://wired.com"
+      
     - id: "mit-tech"
       name: "MIT科技评论"
       url: "https://technologyreview.com"
@@ -149,12 +154,15 @@ rss:
     - id: "cnbc-top"
       name: "CNBC财经"
       url: "https://cnbc.com"
+      
     - id: "ft-world"
       name: "金融时报FT"
       url: "https://ft.com"
+      
     - id: "yahoo-finance"
       name: "雅虎财经"
-      url: "https://yahoo.com"
+      url: "https://finance.yahoo.com/news/rssindex"
+      
     - id: "marketwatch"
       name: "MarketWatch"
       url: "https://dowjones.io"
@@ -163,9 +171,11 @@ rss:
     - id: "bbc-world"
       name: "BBC国际"
       url: "https://bbci.co.uk"
+      
     - id: "bbc-tech"
       name: "BBC科技"
       url: "https://bbci.co.uk"
+      
     - id: "guardian-world"
       name: "卫报国际"
       url: "https://theguardian.com"
@@ -174,15 +184,10 @@ rss:
     - id: "sspai"
       name: "少数派"
       url: "https://sspai.com"
+      
     - id: "ifanr"
       name: "爱范儿"
       url: "https://ifanr.com"
-
-    - id: "ruanyifeng"
-      name: "阮一峰的网络日志"
-      url: "http://www.ruanyifeng.com/blog/atom.xml"
-      enabled: false                  # 禁用
-      # max_age_days: 3               # 示例：推送 3 天内的文章（更新较慢的博客）
      
     - id: "yahoo-finance"
       name: "雅虎财经"
@@ -200,7 +205,7 @@ rss:
       name: "BBC 国际"
       url: "https://bbci.co.uk"
 
-    # ─── 深度商业与国际政经分析 (In-depth Analysis & Global Affairs) ───
+ # ─── 深度商业与国际政经分析 (In-depth Analysis & Global Affairs) ───
     - id: "economist-finance"
       name: "经济学人·财经"
       url: "https://economist.com"
@@ -238,9 +243,6 @@ rss:
     - id: "infoq-cn"
       name: "InfoQ中文"
       url: "https://infoq.cn"
-    - id: "ruanyifeng"
-      name: "阮一峰的网络日志"
-      url: "http://ruanyifeng.com"
 
     # ─── 优质中文商业与深度观察 (Chinese Business & Insights) ───
     - id: "36kr"
@@ -253,7 +255,7 @@ rss:
       name: "雷峰网"
       url: "https://leiphone.com"
 
-          # ─── 全球股市与华尔街交易快讯 (Stock Market & Wall Street) ───
+    # ─── 全球股市与华尔街交易快讯 (Stock Market & Wall Street) ───
     - id: "seeking-alpha"
       name: "SeekingAlpha美股"
       url: "https://seekingalpha.com"
