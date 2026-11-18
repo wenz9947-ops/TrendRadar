@@ -128,7 +128,6 @@ rss:
   # - 0：禁用此频道的新鲜度过滤，推送所有文章
 
   feeds:
-feeds:
     # ─── 科技与人工智能 (Tech & AI) ───
     - id: "hacker-news"
       name: "Hacker News"
