@@ -170,8 +170,6 @@
 
 /黑神话|冯骥/ => 黑神话悟空
 
-/影之刃零|梁其伟/ => 影之刃零
-
 /三体|流浪地球|刘慈欣|郭帆/ => 三体/流浪地球
 
 申奥
@@ -315,6 +313,43 @@
 /\bEarnings\b/i
 /\bAntitrust\b/i
 @6
+
+[加密与Web3]
+比特币
+以太坊
+加密货币
+区块链
+稳定币
+监管
+/\bBitcoin\b/i
+/\bBTC\b/i
+/\bEthereum\b/i
+/\bETH\b/i
+/\bCrypto\b/i
+/\bWeb3\b/i
+/\bStablecoin\b/i
+/\bSEC\b/i
+@3
+
+[股市与投资]
+美股
+A股
+港股
+财报
+估值
+ipo
+并购
+对冲基金
+巴菲特
+芒格
+/\bS&P 500\b/i
+/\bDow Jones\b/i
+/\bIPO\b/i
+/\bM&A\b/i
+/\bHedge Fund\b/i
+/\bWall Street\b/i
+/\bBuffett\b/i
+@3
 
 /水电|雅鲁藏布江/ => 水电
 /光伏|太阳能/ => 光伏
